@@ -1,0 +1,39 @@
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .row:not(:last-child) {
+    margin-bottom: 16px;
+  }
+  .windBox{
+    text-align: left;
+  }
+  .windBox span{
+    display:block;
+  }
+  .weatherBox{
+    max-width: 600px;
+    margin:20px auto;
+    padding: 20px 15px;
+    border:2px solid gray;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  .cityname, .description{
+    font-size:16px;
+    font-weight: 700;
+  }
+  .description{
+    text-transform: capitalize;
+  }
+  .temperature{
+    font-size:24px;
+    font-weight: 700;
+  }
+  .icon{
+    max-width:50px;
+    display:block;
+    margin:auto;
+  }
+  
